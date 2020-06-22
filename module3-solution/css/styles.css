@@ -1,0 +1,75 @@
+body{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+#header-nav{
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+    color:white;
+}
+
+
+.navbar-brand{
+    text-align: left;
+    height:80px;
+    color:#951C49;
+    
+}
+.brand{
+    color:#951C49;
+}
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+.chicken_para{
+    background-color: #951C49;
+    height:1000px;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+    .custom_mar{
+margin:20px;
+width:100%;
+    }
+  }
+  /* End Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom_mar{
+        margin:20px;
+            }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .custom_mar{
+    margin:20px;
+        }
+        .col-xs-12{
+            width:90%;
+        }
+  }
